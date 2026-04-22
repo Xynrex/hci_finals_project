@@ -1,0 +1,62 @@
+
+    body {
+    margin: 0;
+    background-color: orange ;
+    }
+    main{
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    h1 {
+        text-align:none;
+    }
+    .navbar ul{
+     list-style-type: none;
+     background-color: black;
+     margin: 0px;
+     padding: 0px;
+     overflow: hidden;
+    }
+
+    .navbar a{
+     color: azure;
+     text-decoration: none;
+     padding: 20px;
+     display: block;
+     text-align: center;
+
+    }
+    .navbar a:hover{
+        background-color: gray;
+    }
+    .navbar li{
+        float:left;
+    }
+  .brand-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 6px 0;
+  border: 2px solid black;
+  border-radius: 8px;
+  text-decoration: none;
+  color: Black;
+  font-weight: 600;
+  background-color:aliceblue;
+  transition: all 0.3s ease;
+}
+
+.brand-btn:hover {
+  background-color: black;
+  color: gray;
+  transform: translateX(5px);
+}
+img {
+  background-color: white;
+  padding: 10px;       
+  border-radius: 8px;     
+  display: inline-block;
+}
+.td {
+  display: inline-block;
+   border-spacing: 20px;
+}
